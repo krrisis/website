@@ -6,6 +6,7 @@
 #header {
   .navbar {
     background-color: rgba(44, 13, 84, 0.7) !important;
+    max-width: 100%;
   }
 
   .btn-secondary {
@@ -148,6 +149,13 @@ body {
   }
 }
 
+#donations {
+  li {
+    list-style: none;
+    padding-bottom: 0.5rem;
+  }
+}
+
 #developers-corner {
   overflow: hidden;
 
@@ -163,6 +171,8 @@ body {
 }
 
 #footer {
+  background-color: black;
+
   padding-top: 4rem;
   padding-bottom: 2rem;
   text-align: center;
@@ -437,6 +447,19 @@ body {
 .btn-secondary:hover, .btn-secondary.active {
     background-color: #472F6D;
     box-shadow: none;
+}
+
+.btn-warning {
+    text-align: center;
+    background-color: #fff255;
+    border-color:  #fff255;
+}
+
+.widelarge {
+  display: flow-root;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .color-black {
@@ -872,6 +895,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(107, 117
   margin-top: 2rem;
 }
 
+.word-wrap {
+  word-wrap: break-word;
+}
 
 
 /*
